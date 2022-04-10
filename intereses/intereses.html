@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../index.html">Home</a>
+    <h1>calcula tu interes simple o compuesto</h1>
+    <form action="">
+        <label for="InputInteres">
+            Escribe cual es tu capital
+        </label>
+        <input id="Input1" type="number">
+        <br>
+        <br>
+        <label for="InputInteres">
+            Escribe cual es tu tasa de interes
+        </label>
+        <input id="Input2" type="number">
+        <br>
+        <br>
+        <label for="InputInteres">
+            cuantos meses vas a invertir
+        </label>
+        <input id="Input3" type="number">
+        <br>
+        <br>
+        <button id="myButton" class="button" type="button" onclick="calcularInteresSimple()">
+            calcula el interés simple
+        </button>
+        <button class="button" type="button" onclick="calcularInteresCompuesto()">
+            calcula el interés compuesto
+        </button>
+
+        <p id="ResultP"></p>
+    </form>
+
+    <!-- <h1>calcula tu interes compuestos</h1>
+    <form action="">
+        <label for="InputInteres">
+            Escribe cual es tu capital
+        </label>
+        <input id="Input4" type="number">
+        <br>
+        <label for="InputInteres">
+            Escribe cual es tu tasa de interes
+        </label>
+        <input id="Input5" type="number">
+        <br>
+        <label for="InputInteres">
+            cuantos meses vas a invertir
+        </label>
+        <input id="Input6" type="number">
+        <br>
+        <button class="button" type="button" onclick="calcularInteresCompuesto()">
+            calcula el interés
+        </button>
+    </form> -->
+
+    <script src="./intereses.js"></script>
+</body>
+</html>

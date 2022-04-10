@@ -1,0 +1,11 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.button{
+    width: 30%;
+    background-color: rgb(152,202,63);
+    margin: 5px;
+    border: 1px solid black;
+}
